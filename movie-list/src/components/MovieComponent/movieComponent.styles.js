@@ -1,25 +1,29 @@
 import { css } from 'emotion';
 
+export const movieListWrapper = css`
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  label: movie-list-wrapper;
+`;
+
 export const productWrapper = css`
-  max-width: 450px;
-  margin: 15px;
+  margin: 10px;
   label: product-wrapper;
 `;
 
-export const productListImage = css` 
-  width: 450px;
+export const movieListImage = css` 
+  width: 200px;
+  height: 300px;
   max-width: 100%;
-  max-height: 450px;
   cursor: pointer;
   label: product-list-image;
 `;
 
-export const productInfo = css`
+export const movieInfo = css`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 75%;
-  margin-top: 2%;
   label: product-info;
 
   h1 {
@@ -31,6 +35,11 @@ export const productInfo = css`
     margin: .5em 0;
   }
 
+`;
+
+export const movieTitle = css`
+  font-size: 16px;
+  label: movie-title;
 `;
 
 export const productDescription = css`

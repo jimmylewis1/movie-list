@@ -1,4 +1,4 @@
-const movieList = [{
+export const movieList = [{
   "id": "001",
   "title": "12 Angry Men",
   "year": "1957",
@@ -25,5 +25,3 @@ const movieList = [{
     "images/the-adjustment-bureau.jpg",
   ]
 }];
-
-export default movieList;

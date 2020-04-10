@@ -12,6 +12,12 @@ export const productWrapper = css`
   label: product-wrapper;
 `;
 
+export const moviesListWrapper = css`
+  label: moviesListWrapper;
+  display: flex;
+  flex-wrap: wrap;
+`;
+
 export const movieListImage = css` 
   width: 200px;
   height: 300px;
@@ -38,8 +44,13 @@ export const movieInfo = css`
 `;
 
 export const movieTitle = css`
-  font-size: 16px;
   label: movie-title;
+  font-size: 16px;
+  font-weight: bold;
+  width: 200px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 `;
 
 export const productDescription = css`
@@ -63,6 +74,11 @@ export const modalContentWrapper = css`
   label: modal-content-wrapper;
 `;
 
+export const modalDataWrapper = css`
+  label: modalDataWrapper;
+  display: flex;
+`;
+
 export const closeModalBtn = css`
   cursor: pointer;
   label: close-modal-btn;
@@ -70,24 +86,39 @@ export const closeModalBtn = css`
 
 export const modalH2 = css`
   text-align: center;
+  margin-left: 15px;
   label: modalH2;
 `;
 
-export const modalInstruction = css`
+export const modalDescription = css`
   font-size: 18px;
-  max-width: 50%;
   margin-bottom: 2em;
-  text-align: center;
-  label: modal-instruction;
+  margin-left: 15px;
+  text-align: left;
+  label: modal-description;
 `;
 
-export const modalPhoneInfo = css`
-  font-size: 22px;
+export const modalWatchBtn = css`
   label: modal-phone-info;
+  font-size: 22px;
+  margin: 0 auto;
+  cursor: pointer;
 `;
 
 export const modalWrapper = css`
   display: flex;
   justify-content: center;
   label: modal-wrapper;
+`;
+
+export const modalImgWrapper = css`
+  label: modalImgWrapper;
+  display: flex;
+`;
+
+export const modalMovieInfo = css`
+  label: modalMovieInfo;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 `;

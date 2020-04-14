@@ -15,15 +15,20 @@ export const productWrapper = css`
 export const moviesListWrapper = css`
   label: moviesListWrapper;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 `;
 
 export const movieListImage = css` 
+  label: movie-list-image;
   width: 200px;
   height: 300px;
   max-width: 100%;
   cursor: pointer;
-  label: product-list-image;
+  transition: all .2s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+  }
 `;
 
 export const movieInfo = css`

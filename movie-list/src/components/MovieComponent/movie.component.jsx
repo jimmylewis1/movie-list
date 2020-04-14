@@ -26,7 +26,7 @@ export const MovieComponent = () => {
     setModalIsOpen(true);
   };
   console.log('movieData: ', movieData);
-  
+
 return (
   <>
     <Modal

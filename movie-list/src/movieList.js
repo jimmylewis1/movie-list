@@ -1772,6 +1772,12 @@ export const movieList = [{
   "year": "2016",
   "description": "Disney presents a heartwarming comedy-adventure set in the modern mammal metropolis of Zootopia. With habitat neighborhoods like ritzy Sahara Square and frigid Tundratown, it’s a melting pot where animals from every environment live together—a place where no matter what you are, from the biggest elephant to the smallest shrew, you can be anything. But when optimistic Officer Judy Hopps arrives, she discovers that being the first bunny on a police force of big, tough animals isn’t so easy. Determined to prove herself, she jumps at the opportunity to crack a case, even if it means partnering with fast-talking scam-artist fox Nick Wilde to solve the mystery.",
   "image": "images/zootopia.jpg",
+},{
+  "id": "278",
+  "title": "Star Wars: The Rise of Skywalker",
+  "year": "2019",
+  "description": "In STAR WARS: THE RISE OF SKYWALKER, the riveting conclusion of the landmark Skywalker saga, new legends will be born—and the final battle for freedom is yet to come.",
+  "image": "images/rise-of-skywalker.jpeg",
 },];
 
 
